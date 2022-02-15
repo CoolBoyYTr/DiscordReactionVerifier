@@ -95,7 +95,7 @@ async def on_raw_reaction_remove(payload):
             except Exception as e:
                 raise e
 
-bot.run(token)
+client.run(os.getenv('TOKEN'))
     
 
 
